@@ -1,9 +1,6 @@
 import os
 import asyncio
 from database import Base, Book, Author, Genre, session, engine, utils
-from dotenv import load_dotenv
-
-load_dotenv()
 
 async def main() -> None:
     """Подключение к БД и выполнение операций"""
